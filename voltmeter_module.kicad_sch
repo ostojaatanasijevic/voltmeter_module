@@ -1,0 +1,1928 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "e0910ac1-763d-4be4-8e91-05875278b512")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Amplifier_Operational:NCS20074D"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 2.54 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "NCS20074D"
+				(at 2.54 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+				(at 2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NCS20071-D.PDF"
+				(at 6.35 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Quad, 2.8V/µs, Rail-to-Rail Output, SOIC-14"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "quad rail-to-rail output opamp vfa"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x8.7mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NCS20074D_1_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "NCS20074D_2_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy -5.08 -5.08) (xy 5.08 0) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "NCS20074D_3_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "NCS20074D_4_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "NCS20074D_5_1"
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Reference_Voltage:REF5050ID"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -1.27 8.255 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "REF5050ID"
+				(at -1.27 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+				(at -1.905 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ref5030.pdf"
+				(at -1.27 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "5V 0.05% 10mA Low Noise Precision Voltage Reference, SO-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Low Noise Precision Voltage Reference 5V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "REF5050ID_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "REF5050ID_1_1"
+				(pin no_connect line
+					(at -7.62 2.54 0)
+					(length 2.54) hide
+					(name "DNC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 2.54)
+					(name "Vin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "Temp"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "Trim/NR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "Vout"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -5.08 -5.08 90)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 7.62 0 180)
+					(length 2.54) hide
+					(name "DNC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "rack_modules:MCP3561RT-E_ST"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 9.906 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "MCP3561RT-E_ST"
+				(at 9.906 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
+				(at 39.37 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/MCP3561.2.4R-Data-Sheet-DS200006391A.pdf"
+				(at 39.37 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Analog to Digital Converters - ADC 24-bit delta-sigma ADC w/Vref, Single channel, 3V"
+				(at -16.51 15.748 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.2"
+				(at 39.37 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "579-MCP3561RT-E/ST"
+				(at 39.37 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP3561RT-E-ST?qs=W%2FMpXkg%252BdQ65LmiVjhvJgQ%3D%3D"
+				(at 39.37 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Microchip"
+				(at 39.37 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "MCP3561RT-E/ST"
+				(at 39.37 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "MCP3561RT-E_ST_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 38.1 -25.4)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 5.08)
+					(name "AVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -22.86 0)
+					(length 5.08)
+					(name "NC_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 43.18 -22.86 180)
+					(length 5.08)
+					(name "NC_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 43.18 -20.32 180)
+					(length 5.08)
+					(name "NC_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 43.18 -17.78 180)
+					(length 5.08)
+					(name "~{CS}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 43.18 -15.24 180)
+					(length 5.08)
+					(name "SCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 43.18 -12.7 180)
+					(length 5.08)
+					(name "SDI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 43.18 -10.16 180)
+					(length 5.08)
+					(name "SDO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 43.18 -7.62 180)
+					(length 5.08)
+					(name "~{IRQ}/MDAT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 43.18 -5.08 180)
+					(length 5.08)
+					(name "MCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 43.18 -2.54 180)
+					(length 5.08)
+					(name "DGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "AGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 43.18 0 180)
+					(length 5.08)
+					(name "DVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "REFIN-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "REFIN+/OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "CH0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -12.7 0)
+					(length 5.08)
+					(name "CH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 0)
+					(length 5.08)
+					(name "NC_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -17.78 0)
+					(length 5.08)
+					(name "NC_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -20.32 0)
+					(length 5.08)
+					(name "NC_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(text "Napravi baterija modul za kalibracioni modul\n"
+		(exclude_from_sim no)
+		(at 113.538 7.366 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "0ffeb4e1-95dc-4a3d-a97f-f1265b98315d")
+	)
+	(text "Napravi kalibracioni modul\n"
+		(exclude_from_sim no)
+		(at 211.582 72.898 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "15d8edf0-e586-45f1-bbb6-71082509a7b6")
+	)
+	(text "verzioniši module po rezoluciji, 4.5 ima lm4040, 5.5 ima ref5050, 6.5 ima lm399 itd"
+		(exclude_from_sim no)
+		(at 191.008 16.002 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "d4bc9d9f-02ec-43a4-bb6b-6b31aa3d564f")
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:NCS20074D")
+		(at 92.71 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e3c273e-5603-4592-974f-4754cdb49b89")
+		(property "Reference" "U3"
+			(at 92.71 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NCS20074D"
+			(at 92.71 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 95.25 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NCS20071-D.PDF"
+			(at 99.06 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad, 2.8V/µs, Rail-to-Rail Output, SOIC-14"
+			(at 92.71 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "9491884f-d854-4542-88e3-b03d63971bb3")
+		)
+		(pin "10"
+			(uuid "c986cada-f29f-4b68-8f41-8c3e9873cdf4")
+		)
+		(pin "1"
+			(uuid "e9b11770-16d8-44c1-a93e-21471c27df4c")
+		)
+		(pin "6"
+			(uuid "ecbfde72-4759-4bed-b8ef-e7ab0d58c2c8")
+		)
+		(pin "5"
+			(uuid "f133f7ca-447c-45dc-81e6-bc55e7a747ce")
+		)
+		(pin "2"
+			(uuid "00f984d9-21b5-418e-81b3-585c76639baf")
+		)
+		(pin "12"
+			(uuid "4e2f60e6-fa22-41d9-922f-88c56e23c315")
+		)
+		(pin "9"
+			(uuid "bc1c3a18-601c-4b64-968e-91927e7fb4f2")
+		)
+		(pin "8"
+			(uuid "fbe6e027-ef58-4042-a132-5249756c44b5")
+		)
+		(pin "3"
+			(uuid "e3d06bda-ec33-4824-b938-51d4137e14af")
+		)
+		(pin "4"
+			(uuid "a11c4530-7b6c-4c56-8d49-0cedf3e23c31")
+		)
+		(pin "13"
+			(uuid "6f363720-3e73-4fb6-b772-20a8df60fb1e")
+		)
+		(pin "14"
+			(uuid "6f898613-0931-4ffd-bcd2-21268d67b28f")
+		)
+		(pin "11"
+			(uuid "3aa2707c-9fa4-4fec-a13f-8e3e09f28d3e")
+		)
+		(instances
+			(project ""
+				(path "/e0910ac1-763d-4be4-8e91-05875278b512"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:NCS20074D")
+		(at 134.62 92.71 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25cd50bc-8f7d-45d0-85b2-2e788bc962e8")
+		(property "Reference" "U3"
+			(at 134.62 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NCS20074D"
+			(at 134.62 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 137.16 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NCS20071-D.PDF"
+			(at 140.97 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad, 2.8V/µs, Rail-to-Rail Output, SOIC-14"
+			(at 134.62 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "9491884f-d854-4542-88e3-b03d63971bb4")
+		)
+		(pin "10"
+			(uuid "c986cada-f29f-4b68-8f41-8c3e9873cdf5")
+		)
+		(pin "1"
+			(uuid "e9b11770-16d8-44c1-a93e-21471c27df4d")
+		)
+		(pin "6"
+			(uuid "ecbfde72-4759-4bed-b8ef-e7ab0d58c2c9")
+		)
+		(pin "5"
+			(uuid "f133f7ca-447c-45dc-81e6-bc55e7a747cf")
+		)
+		(pin "2"
+			(uuid "00f984d9-21b5-418e-81b3-585c76639bb0")
+		)
+		(pin "12"
+			(uuid "4e2f60e6-fa22-41d9-922f-88c56e23c316")
+		)
+		(pin "9"
+			(uuid "bc1c3a18-601c-4b64-968e-91927e7fb4f3")
+		)
+		(pin "8"
+			(uuid "fbe6e027-ef58-4042-a132-5249756c44b6")
+		)
+		(pin "3"
+			(uuid "e3d06bda-ec33-4824-b938-51d4137e14b0")
+		)
+		(pin "4"
+			(uuid "a11c4530-7b6c-4c56-8d49-0cedf3e23c32")
+		)
+		(pin "13"
+			(uuid "6f363720-3e73-4fb6-b772-20a8df60fb1f")
+		)
+		(pin "14"
+			(uuid "6f898613-0931-4ffd-bcd2-21268d67b290")
+		)
+		(pin "11"
+			(uuid "3aa2707c-9fa4-4fec-a13f-8e3e09f28d3f")
+		)
+		(instances
+			(project ""
+				(path "/e0910ac1-763d-4be4-8e91-05875278b512"
+					(reference "U3")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:NCS20074D")
+		(at 195.58 134.62 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8503564e-8442-47b9-865b-a7e18bf68e0f")
+		(property "Reference" "U3"
+			(at 196.85 133.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NCS20074D"
+			(at 196.85 135.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 198.12 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NCS20071-D.PDF"
+			(at 201.93 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad, 2.8V/µs, Rail-to-Rail Output, SOIC-14"
+			(at 195.58 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "9491884f-d854-4542-88e3-b03d63971bb5")
+		)
+		(pin "10"
+			(uuid "c986cada-f29f-4b68-8f41-8c3e9873cdf6")
+		)
+		(pin "1"
+			(uuid "e9b11770-16d8-44c1-a93e-21471c27df4e")
+		)
+		(pin "6"
+			(uuid "ecbfde72-4759-4bed-b8ef-e7ab0d58c2ca")
+		)
+		(pin "5"
+			(uuid "f133f7ca-447c-45dc-81e6-bc55e7a747d0")
+		)
+		(pin "2"
+			(uuid "00f984d9-21b5-418e-81b3-585c76639bb1")
+		)
+		(pin "12"
+			(uuid "4e2f60e6-fa22-41d9-922f-88c56e23c317")
+		)
+		(pin "9"
+			(uuid "bc1c3a18-601c-4b64-968e-91927e7fb4f4")
+		)
+		(pin "8"
+			(uuid "fbe6e027-ef58-4042-a132-5249756c44b7")
+		)
+		(pin "3"
+			(uuid "e3d06bda-ec33-4824-b938-51d4137e14b1")
+		)
+		(pin "4"
+			(uuid "a11c4530-7b6c-4c56-8d49-0cedf3e23c33")
+		)
+		(pin "13"
+			(uuid "6f363720-3e73-4fb6-b772-20a8df60fb20")
+		)
+		(pin "14"
+			(uuid "6f898613-0931-4ffd-bcd2-21268d67b291")
+		)
+		(pin "11"
+			(uuid "3aa2707c-9fa4-4fec-a13f-8e3e09f28d40")
+		)
+		(instances
+			(project ""
+				(path "/e0910ac1-763d-4be4-8e91-05875278b512"
+					(reference "U3")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:NCS20074D")
+		(at 95.25 78.74 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1c07d81-9459-48bf-8b82-0cfe94454bbf")
+		(property "Reference" "U3"
+			(at 95.25 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NCS20074D"
+			(at 95.25 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 97.79 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NCS20071-D.PDF"
+			(at 101.6 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad, 2.8V/µs, Rail-to-Rail Output, SOIC-14"
+			(at 95.25 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "9491884f-d854-4542-88e3-b03d63971bb6")
+		)
+		(pin "10"
+			(uuid "c986cada-f29f-4b68-8f41-8c3e9873cdf7")
+		)
+		(pin "1"
+			(uuid "e9b11770-16d8-44c1-a93e-21471c27df4f")
+		)
+		(pin "6"
+			(uuid "ecbfde72-4759-4bed-b8ef-e7ab0d58c2cb")
+		)
+		(pin "5"
+			(uuid "f133f7ca-447c-45dc-81e6-bc55e7a747d1")
+		)
+		(pin "2"
+			(uuid "00f984d9-21b5-418e-81b3-585c76639bb2")
+		)
+		(pin "12"
+			(uuid "4e2f60e6-fa22-41d9-922f-88c56e23c318")
+		)
+		(pin "9"
+			(uuid "bc1c3a18-601c-4b64-968e-91927e7fb4f5")
+		)
+		(pin "8"
+			(uuid "fbe6e027-ef58-4042-a132-5249756c44b8")
+		)
+		(pin "3"
+			(uuid "e3d06bda-ec33-4824-b938-51d4137e14b2")
+		)
+		(pin "4"
+			(uuid "a11c4530-7b6c-4c56-8d49-0cedf3e23c34")
+		)
+		(pin "13"
+			(uuid "6f363720-3e73-4fb6-b772-20a8df60fb21")
+		)
+		(pin "14"
+			(uuid "6f898613-0931-4ffd-bcd2-21268d67b292")
+		)
+		(pin "11"
+			(uuid "3aa2707c-9fa4-4fec-a13f-8e3e09f28d41")
+		)
+		(instances
+			(project ""
+				(path "/e0910ac1-763d-4be4-8e91-05875278b512"
+					(reference "U3")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:NCS20074D")
+		(at 128.27 115.57 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6c2613f-4fc2-46be-87bb-d213a6fcf58d")
+		(property "Reference" "U3"
+			(at 128.27 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NCS20074D"
+			(at 128.27 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 130.81 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NCS20071-D.PDF"
+			(at 134.62 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad, 2.8V/µs, Rail-to-Rail Output, SOIC-14"
+			(at 128.27 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "9491884f-d854-4542-88e3-b03d63971bb7")
+		)
+		(pin "10"
+			(uuid "c986cada-f29f-4b68-8f41-8c3e9873cdf8")
+		)
+		(pin "1"
+			(uuid "e9b11770-16d8-44c1-a93e-21471c27df50")
+		)
+		(pin "6"
+			(uuid "ecbfde72-4759-4bed-b8ef-e7ab0d58c2cc")
+		)
+		(pin "5"
+			(uuid "f133f7ca-447c-45dc-81e6-bc55e7a747d2")
+		)
+		(pin "2"
+			(uuid "00f984d9-21b5-418e-81b3-585c76639bb3")
+		)
+		(pin "12"
+			(uuid "4e2f60e6-fa22-41d9-922f-88c56e23c319")
+		)
+		(pin "9"
+			(uuid "bc1c3a18-601c-4b64-968e-91927e7fb4f6")
+		)
+		(pin "8"
+			(uuid "fbe6e027-ef58-4042-a132-5249756c44b9")
+		)
+		(pin "3"
+			(uuid "e3d06bda-ec33-4824-b938-51d4137e14b3")
+		)
+		(pin "4"
+			(uuid "a11c4530-7b6c-4c56-8d49-0cedf3e23c35")
+		)
+		(pin "13"
+			(uuid "6f363720-3e73-4fb6-b772-20a8df60fb22")
+		)
+		(pin "14"
+			(uuid "6f898613-0931-4ffd-bcd2-21268d67b293")
+		)
+		(pin "11"
+			(uuid "3aa2707c-9fa4-4fec-a13f-8e3e09f28d42")
+		)
+		(instances
+			(project ""
+				(path "/e0910ac1-763d-4be4-8e91-05875278b512"
+					(reference "U3")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Reference_Voltage:REF5050ID")
+		(at 90.17 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f707a114-a6a1-44ad-b693-0c40ad46491f")
+		(property "Reference" "U2"
+			(at 89.8241 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "REF5050ID"
+			(at 89.8241 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 88.265 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ref5030.pdf"
+			(at 88.9 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "5V 0.05% 10mA Low Noise Precision Voltage Reference, SO-8"
+			(at 90.17 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "1d1f5416-46dc-4208-b66b-a7cebe896d6e")
+		)
+		(pin "4"
+			(uuid "85611213-bdae-4651-8f7a-52a31cdb7497")
+		)
+		(pin "3"
+			(uuid "23339073-4207-4337-8ab9-49acd2dc115d")
+		)
+		(pin "6"
+			(uuid "912d8130-8add-4227-9201-d2ca1781c50e")
+		)
+		(pin "1"
+			(uuid "568d8710-6a09-403f-a04f-fede5dfaf4bd")
+		)
+		(pin "5"
+			(uuid "2d5ee358-45e1-4caa-b83d-147664bc0166")
+		)
+		(pin "2"
+			(uuid "fede4365-cc32-4ef5-9d37-860d7ec2b83f")
+		)
+		(pin "8"
+			(uuid "3499cbab-85ec-4208-a4c5-f4793faf8e43")
+		)
+		(instances
+			(project ""
+				(path "/e0910ac1-763d-4be4-8e91-05875278b512"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "rack_modules:MCP3561RT-E_ST")
+		(at 142.24 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f72edd84-fb43-49cc-8ce3-920b61b33a70")
+		(property "Reference" "U1"
+			(at 163.83 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP3561RT-E_ST"
+			(at 163.83 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
+			(at 181.61 129.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/MCP3561.2.4R-Data-Sheet-DS200006391A.pdf"
+			(at 181.61 229.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Analog to Digital Converters - ADC 24-bit delta-sigma ADC w/Vref, Single channel, 3V"
+			(at 125.73 18.542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.2"
+			(at 181.61 429.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "579-MCP3561RT-E/ST"
+			(at 181.61 529.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP3561RT-E-ST?qs=W%2FMpXkg%252BdQ65LmiVjhvJgQ%3D%3D"
+			(at 181.61 629.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Microchip"
+			(at 181.61 729.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MCP3561RT-E/ST"
+			(at 181.61 829.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "cadcdcab-d20a-4515-b4e1-175626f2ad7e")
+		)
+		(pin "1"
+			(uuid "8d3770cd-4d06-4129-a6d9-fcb994c2220f")
+		)
+		(pin "11"
+			(uuid "1e64cfb2-26f3-47ce-b993-490eeebeae95")
+		)
+		(pin "12"
+			(uuid "c8f98479-2bf6-4e3d-ab91-336e7793cb94")
+		)
+		(pin "15"
+			(uuid "79cf8b73-92e9-479e-b710-6788c8ab8463")
+		)
+		(pin "14"
+			(uuid "976a1fef-eee4-4c83-820b-0af48c8d420f")
+		)
+		(pin "10"
+			(uuid "4761328c-7125-4a64-9cfe-0d67462c05a6")
+		)
+		(pin "19"
+			(uuid "41af3acf-6419-4c2a-a8bc-8a6d21c71c36")
+		)
+		(pin "18"
+			(uuid "0016b2e8-29a4-4f65-a8ce-5c29aafeb9e9")
+		)
+		(pin "5"
+			(uuid "073f3dd7-69d8-415e-b089-7a56bf7738c2")
+		)
+		(pin "7"
+			(uuid "77f09762-2592-4f35-b1b3-c73edd8d5d4e")
+		)
+		(pin "17"
+			(uuid "37b4d751-a433-4781-94c7-ea672454ecd9")
+		)
+		(pin "2"
+			(uuid "29644549-0262-4eef-b1c7-addddb7ad71a")
+		)
+		(pin "4"
+			(uuid "a90f1a39-226e-49d8-8687-801e50a9b2ec")
+		)
+		(pin "3"
+			(uuid "858ab0c1-1708-4055-82cd-a7ab8e0ddb36")
+		)
+		(pin "6"
+			(uuid "a0b9ac94-4c77-467e-90c3-b36614602ac7")
+		)
+		(pin "8"
+			(uuid "b243acc9-cf57-4a6d-bc3e-29b355d74f62")
+		)
+		(pin "9"
+			(uuid "c0adaa0e-743d-4292-87d2-b660b342c68e")
+		)
+		(pin "20"
+			(uuid "d11c174d-5e72-439d-ac11-bdbf4b7e2a8f")
+		)
+		(pin "16"
+			(uuid "92a19787-edab-4ae5-a1e5-d50fb1b2d608")
+		)
+		(instances
+			(project ""
+				(path "/e0910ac1-763d-4be4-8e91-05875278b512"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

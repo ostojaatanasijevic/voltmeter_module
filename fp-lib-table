@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "rack_modules")(type "KiCad")(uri "${KIPRJMOD}/rack_modules.pretty")(options "")(descr ""))
+)

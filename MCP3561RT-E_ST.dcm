@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MCP3561RT-E_ST
+D Analog to Digital Converters - ADC 24-bit delta-sigma ADC w/Vref, Single channel, 3V
+K
+F https://ww1.microchip.com/downloads/en/DeviceDoc/MCP3561.2.4R-Data-Sheet-DS200006391A.pdf
+$ENDCMP
+#
+#End Doc Library
