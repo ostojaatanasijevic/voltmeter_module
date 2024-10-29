@@ -1,0 +1,226 @@
+Circuit: * Z:\home\ostoja\Elektronika\voltmeter_module\simulacije\000_input_protection.asc
+
+Instance "m:u1:66": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:65": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:68": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:62": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:60": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:67": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:61": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:59": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:69": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:64": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:63": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:53": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:52": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:23": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:19": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:5": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:4": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:3": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:2": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:8": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:1": Length shorter than recommended for a level 1 MOSFET.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+vernier = 0.03125
+Gmin = 1.29096
+vernier = 0.0416667
+vernier = 0.0555555
+Gmin = 1.14801
+vernier = 0.074074
+vernier = 0.037037
+vernier = 0.0185185
+Gmin = 1.01888
+vernier = 0.00925925
+vernier = 0.00462963
+vernier = 0.00231481
+vernier = 0.00115741
+vernier = 0.000578703
+vernier = 0.000434027
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 46.2121%
+vernier = 0.015625
+Source Step = 46.1085%
+Source Step = 46.1381%
+Source Step = 46.1677%
+Source Step = 46.1973%
+Source Step = 46.2269%
+Source Step = 46.2565%
+vernier = 0.00146484
+Source Step = 46.2994%
+Source Step = 46.3438%
+Source Step = 46.3882%
+Source Step = 46.4326%
+Source Step = 46.477%
+vernier = 0.00219727
+Source Step = 46.5391%
+Source Step = 46.6057%
+Source Step = 46.6723%
+Source Step = 46.7389%
+Source Step = 46.8055%
+vernier = 0.0032959
+Source Step = 46.8953%
+Source Step = 46.9952%
+Source Step = 47.0951%
+Source Step = 47.195%
+Source Step = 47.2948%
+vernier = 0.00494385
+Source Step = 47.4247%
+Source Step = 47.5745%
+Source Step = 47.7243%
+Source Step = 47.8741%
+Source Step = 48.0239%
+vernier = 0.00741577
+Source Step = 48.2112%
+Source Step = 48.4359%
+Source Step = 48.6606%
+Source Step = 48.8854%
+Source Step = 49.1101%
+vernier = 0.0111237
+Source Step = 49.3798%
+Source Step = 49.7168%
+Source Step = 50.0539%
+Source Step = 50.391%
+Source Step = 50.7281%
+vernier = 0.0166855
+Source Step = 51.1157%
+Source Step = 51.6213%
+Source Step = 52.127%
+Source Step = 52.6326%
+Source Step = 53.1382%
+vernier = 0.0250282
+Source Step = 53.6944%
+Source Step = 54.4528%
+Source Step = 55.2112%
+Source Step = 55.9697%
+Source Step = 56.7281%
+vernier = 0.0375423
+Source Step = 57.5245%
+Source Step = 58.6621%
+Source Step = 59.7998%
+Source Step = 60.9374%
+Source Step = 62.075%
+Source Step = 63.2127%
+vernier = 0.0563135
+Source Step = 64.9192%
+Source Step = 66.6256%
+Source Step = 68.3321%
+Source Step = 70.0386%
+Source Step = 71.745%
+vernier = 0.0844703
+Source Step = 74.2194%
+Source Step = 76.7791%
+Source Step = 79.3388%
+Source Step = 81.8985%
+Source Step = 84.4582%
+vernier = 0.126705
+Source Step = 88.0418%
+Source Step = 91.8814%
+Source Step = 95.721%
+Source Step = 95.7629%
+Source Step = 95.8229%
+Source Step = 95.8829%
+Source Step = 95.9429%
+Source Step = 96.0029%
+Source Step = 96.0629%
+Source Step = 96.1229%
+Source Step = 96.1829%
+Source Step = 96.2429%
+Source Step = 96.3029%
+Source Step = 96.3629%
+Source Step = 96.4229%
+Source Step = 96.4829%
+Source Step = 96.5429%
+Source Step = 96.6028%
+Source Step = 96.6628%
+Source Step = 96.7228%
+Starting source stepping with srcstepmethod=1
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 63.6364%
+Source Step = 93.9394%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+vernier = 0.25
+Source Step = 99.0178%
+Source Step = 99.0473%
+Source Step = 99.0769%
+Source Step = 99.1065%
+Source Step = 99.1361%
+Source Step = 99.1657%
+Source Step = 99.1953%
+Source Step = 99.2249%
+Source Step = 99.2545%
+Source Step = 99.2841%
+Source Step = 99.3137%
+Source Step = 99.3433%
+Source Step = 99.3729%
+Source Step = 99.4025%
+Source Step = 99.4321%
+Source Step = 99.4616%
+Source Step = 99.4912%
+Source Step = 99.5208%
+Source Step = 99.5504%
+Source Step = 99.58%
+Source Step = 99.6096%
+Source Step = 99.6392%
+Source Step = 99.6688%
+Source Step = 99.6984%
+Source Step = 99.728%
+Source Step = 99.7576%
+Source Step = 99.7872%
+Source Step = 99.8168%
+Source Step = 99.8464%
+Source Step = 99.8759%
+Source Step = 99.9055%
+Source Step = 99.9351%
+Source Step = 99.9647%
+Source Step = 99.9943%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source stepping succeeded in finding the operating point.
+
+Heightened Def Con from 0.0500253 to 0.0500253
+
+Date: Tue Oct 29 23:17:45 2024
+Total elapsed time: 11.194 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 84314
+traniter = 4042
+tranpoints = 1521
+accept = 1403
+rejected = 119
+matrix size = 234
+fillins = 779
+solver = Normal
+Thread vector: 7.0/4.2[3] 2.3/2.4[1] 1.4/1.6[1] 0.5/0.9[1]  2592/500
+Matrix Compiler1: 53.86 KB object code size  6.0/2.0/[1.8]
+Matrix Compiler2: 32.38 KB object code size  1.2/1.5/[1.1]
+
