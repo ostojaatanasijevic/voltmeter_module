@@ -3912,6 +3912,27 @@
 		)
 		(uuid "fe091a54-3b26-4dda-add3-68ac6ac4031c")
 	)
+	(text_box "10 Meg || 12.5 k \n12 k, 450 fA/Hz\n5.4 nV/Hz, less\nthan the voltage \nnoise"
+		(exclude_from_sim no)
+		(at 97.79 83.82 0)
+		(size 12.7 19.05)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 62 129 255 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 4 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "05658ddc-d663-4a72-85cc-d0a48c99805e")
+	)
 	(text_box "8 PPM/C\n0.1 %\n3 uVpp/V"
 		(exclude_from_sim no)
 		(at 91.44 46.99 0)
@@ -3983,6 +4004,16 @@
 			)
 		)
 		(uuid "61706b5a-a09c-4335-9a0a-e973be4ad879")
+	)
+	(text "USE TELECOM PUSH PULL TRANSFORMER FOR POWER SUPPLY"
+		(exclude_from_sim no)
+		(at 260.858 87.122 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "7f1596ef-42dd-42a8-a0a6-6ba42e6ae735")
 	)
 	(text "verzioniši module po rezoluciji, 4.5 ima lm4040, 5.5 ima ref5050, 6.5 ima lm399 itd"
 		(exclude_from_sim no)
