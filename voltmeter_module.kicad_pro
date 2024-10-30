@@ -236,7 +236,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "voltmeter_lib"
+    ]
   },
   "meta": {
     "filename": "voltmeter_module.kicad_pro",
@@ -386,6 +388,18 @@
     [
       "e0910ac1-763d-4be4-8e91-05875278b512",
       "Root"
+    ],
+    [
+      "7de11dbd-0f69-4594-8570-7a56a5192518",
+      "Input stage"
+    ],
+    [
+      "4d7a166d-69e2-48e2-9725-ac2b44ddd4b2",
+      "Power supply"
+    ],
+    [
+      "34ff44a2-d62b-49c5-ace5-62386cb466b7",
+      "Digital section"
     ]
   ],
   "text_variables": {}

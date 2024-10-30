@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "voltmeter_lib")(type "KiCad")(uri "${KIPRJMOD}/voltmeter_lib.kicad_sym")(options "")(descr ""))
+  (lib (name "psg")(type "KiCad")(uri "/home/ostoja/Elektronika/PSG10M/PSG.kicad_sym")(options "")(descr ""))
+)

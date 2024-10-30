@@ -9,9 +9,10 @@ LINE Normal 16 32 64 0
 LINE Normal 16 48 0 48
 WINDOW 0 56 32 Left 2
 WINDOW 3 56 68 Left 2
-SYMATTR Value NPN
 SYMATTR Prefix X
 SYMATTR Description Bipolar NPN transistor
+SYMATTR ModelFile BD679.SP3 
+SYMATTR SpiceModel bd679 
 PIN 64 0 NONE 0
 PINATTR PinName C
 PINATTR SpiceOrder 1

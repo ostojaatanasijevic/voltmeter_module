@@ -75,6 +75,30 @@ voltmeter resolution to 500 counts.
 
 Averaging may improve this noise, but this is garantied to 
 
+
+\subsection{TL072}
+TL072 has 80 \si{\femto \ampere \sqrt{\hertz}}, meaning at input divider
+resistance (around 100 kOhm), voltage noise generated is \si{10 nV/\sqrt{Hz}}.
+
+The input voltage noise is \si{54 nV/\sqrt{Hz}}, so total noise at the input
+is: 
+
+\begin{equation}
+  e_n = \sqrt{ 42^2 + 5.4^2} nV/Hz = 54.3 nV/Hz
+  \label{eq:NCS218xx input noise}
+\end{equation}
+
+If we want 500 updates a second, setting the bandwidth to 1000 Hz admits 
+1716 nVrms, or 10.3 uVpp of noise.
+Reducing the BW to 4 Hz, 0.6 uVpp.
+
+With the proposed 10 Meg, 12.5 k divider, worst case scenario is 3V input voltage,
+yealding 3.75 mV across the input divider. In this case, noise reduces the 
+voltmeter resolution to 500 counts.
+
+
+
+
 \section{Power supply}
 
 \subsection{Expected load}

@@ -1,4 +1,221 @@
 Circuit: * Z:\home\ostoja\Elektronika\voltmeter_module\simulacije\100_push_pull.asc
 
-Fatal Error: Unknown subcircuit called in:
-   xu2 vcc_in n003 +v_drv_hs bd679
+WARNING: Node N002 is floating.
+
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-005
+Gmin = 1.6455e-006
+Gmin = 1.76685e-007
+Gmin = 1.89714e-008
+Gmin = 2.03704e-009
+Gmin = 2.18725e-010
+Gmin = 2.34854e-011
+Gmin = 2.52173e-012
+Gmin = 2.70769e-013
+Terminal Gmin changed to 1e-014
+Gmin = 4.54274e-014
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+vernier = 0.25
+Source Step = 0.213068%
+Source Step = 0.242661%
+Source Step = 0.272254%
+Source Step = 0.301847%
+Source Step = 0.331439%
+Source Step = 0.361032%
+Source Step = 0.390625%
+vernier = 0.00146484
+Source Step = 0.421697%
+Source Step = 0.466087%
+Source Step = 0.510476%
+Source Step = 0.554865%
+Source Step = 0.599254%
+Source Step = 0.643643%
+vernier = 0.00219727
+Source Step = 0.710227%
+Source Step = 0.776811%
+Source Step = 0.843395%
+Source Step = 0.909979%
+Source Step = 0.976563%
+vernier = 0.0032959
+Source Step = 1.07311%
+Source Step = 1.17298%
+Source Step = 1.27286%
+Source Step = 1.37274%
+Source Step = 1.47261%
+vernier = 0.00494385
+Source Step = 1.61244%
+Source Step = 1.76225%
+Source Step = 1.91206%
+Source Step = 2.06188%
+Source Step = 2.21169%
+vernier = 0.00741577
+Source Step = 2.41394%
+Source Step = 2.63866%
+Source Step = 2.82406%
+Source Step = 2.88024%
+Source Step = 2.93642%
+Source Step = 2.9926%
+Source Step = 3.04878%
+Source Step = 3.10496%
+vernier = 0.00278091
+Source Step = 3.17799%
+Source Step = 3.26226%
+Source Step = 3.34653%
+Source Step = 3.4308%
+Source Step = 3.51507%
+vernier = 0.00417137
+Source Step = 3.62041%
+Source Step = 3.74681%
+Source Step = 3.87322%
+Source Step = 3.99962%
+Source Step = 4.12603%
+vernier = 0.00625706
+Source Step = 4.27771%
+Source Step = 4.46732%
+Source Step = 4.65693%
+Source Step = 4.84654%
+Source Step = 5.03615%
+vernier = 0.00938559
+Source Step = 5.25419%
+Source Step = 5.53861%
+Source Step = 5.82302%
+Source Step = 6.10743%
+Source Step = 6.39184%
+vernier = 0.0140784
+Source Step = 6.70469%
+Source Step = 7.13131%
+Source Step = 7.55793%
+Source Step = 7.98455%
+Source Step = 8.41116%
+vernier = 0.0211176
+Source Step = 8.85911%
+Source Step = 9.49904%
+Source Step = 10.139%
+Source Step = 10.7789%
+Source Step = 11.4188%
+Source Step = 11.8508%
+Source Step = 12.0108%
+Source Step = 12.1707%
+Source Step = 12.2907%
+Source Step = 12.3307%
+Source Step = 12.3707%
+Source Step = 12.4107%
+Source Step = 12.4507%
+Source Step = 12.4907%
+vernier = 0.00197977
+Source Step = 12.5347%
+Source Step = 12.5947%
+Source Step = 12.6547%
+Source Step = 12.7147%
+Source Step = 12.7747%
+vernier = 0.00296966
+Source Step = 12.8377%
+Source Step = 12.9276%
+Source Step = 13.0176%
+Source Step = 13.1076%
+Source Step = 13.1976%
+Source Step = 13.2876%
+vernier = 0.00445449
+Source Step = 13.4226%
+Source Step = 13.5576%
+Source Step = 13.6926%
+Source Step = 13.8275%
+Source Step = 13.9625%
+vernier = 0.00668173
+Source Step = 14.1583%
+Source Step = 14.3607%
+Source Step = 14.5632%
+Source Step = 14.7657%
+Source Step = 14.9682%
+vernier = 0.0100226
+Source Step = 15.2516%
+Source Step = 15.5553%
+Source Step = 15.8591%
+Source Step = 16.1628%
+Source Step = 16.4665%
+vernier = 0.0150339
+Source Step = 16.8765%
+Source Step = 17.3321%
+Source Step = 17.7876%
+Source Step = 18.2432%
+Source Step = 18.6988%
+vernier = 0.0225508
+Source Step = 19.291%
+Source Step = 19.9744%
+Source Step = 20.6578%
+Source Step = 21.3411%
+Source Step = 22.0245%
+vernier = 0.0338263
+Source Step = 22.8787%
+Source Step = 23.9037%
+Source Step = 24.9287%
+Source Step = 25.9538%
+Source Step = 26.9788%
+vernier = 0.0507394
+Source Step = 28.2089%
+Source Step = 29.7464%
+Source Step = 31.284%
+Source Step = 32.8215%
+Source Step = 34.3591%
+vernier = 0.0761091
+Source Step = 36.1273%
+Source Step = 38.4336%
+Source Step = 40.74%
+Source Step = 43.0463%
+Source Step = 45.3526%
+vernier = 0.114164
+Source Step = 47.8896%
+Source Step = 51.3491%
+Source Step = 54.8086%
+Source Step = 58.2681%
+Source Step = 61.7276%
+vernier = 0.171245
+Source Step = 65.3601%
+Source Step = 70.5494%
+Source Step = 75.7386%
+Source Step = 80.9279%
+Source Step = 86.1171%
+Source Step = 91.3064%
+vernier = 0.256868
+Source Step = 91.3246%
+Starting source stepping with srcstepmethod=1
+Source Step = 3.0303%
+Source Step = 33.3333%
+vernier = 0.25
+Source Step = 33.2386%
+Source Step = 33.7121%
+Source stepping failed
+
+Pseudo transient terminated at 100.062 s, solution accepted ready or not!
+Heightened Def Con from 0.000195028 to 0.000195031
+Heightened Def Con from 0.0617201 to 0.0617201
+Heightened Def Con from 0.0997201 to 0.0997201
+
+Date: Thu Oct 31 00:17:24 2024
+Total elapsed time: 13.559 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 4114279
+traniter = 4100428
+tranpoints = 1242567
+accept = 898520
+rejected = 344052
+matrix size = 42
+fillins = 56
+solver = Normal
+Matrix Compiler1: 7.76 KB object code size  0.9/0.4/[0.4]
+Matrix Compiler2: 4.86 KB object code size  0.3/0.4/[0.3]
+
