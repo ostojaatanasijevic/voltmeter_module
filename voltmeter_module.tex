@@ -96,9 +96,53 @@ With the proposed 10 Meg, 12.5 k divider, worst case scenario is 3V input voltag
 yealding 3.75 mV across the input divider. In this case, noise reduces the 
 voltmeter resolution to 500 counts.
 
+\pagebreak
+\section{Calculating errors}
+
+\subsection{Offset drift}
+
+The input stage is TL072 has typical of $\pm 2$ \si{\micro \volt / \celsius} and 
+since the input stage features 2, one generating offset, total input 
+drift is $\pm 4$ \si{\micro \volt / \celsius}. 
+
+This drift is lowered, as $\pm 10 \si{\volt}$ range gets mapped to 3.3 \si{\volt}
+range, meaning the offset drift contribution of TL072 is 
+$\pm0.66  \si{\micro \volt / \celsius}$
+
+\begin{figure}[H]
+  \centering 
+  \includegraphics[scale=0.55]{"./figs/Input_amp.png"}
+\end{figure}
 
 
+The second stage consist of two opamps, component NCS21802,
+with input offset of $\pm 5$ \si{\nano \volt / \celsius}. First opamp
+contributes $\pm 5$ \si{\nano \volt / \celsius}, while second opamps
+contribution depends on the selected gain. In the worst case, gain of 
+100, the second opamps contribution is $\pm 0.5$ \si{\micro \volt / \celsius}.
 
+The ADC has an input offset drift of $\pm 4$ \si{\nano \volt / \celsius},
+meaning the total input offset drift is: 
+
+\begin{equation}
+  V_{os} = V_{tl072} + V_{NCS21802} (1 + 100) + V_{ADC}
+  \label{eq:offset_1}
+\end{equation}
+
+\begin{equation}
+  V_{os} = \pm 1.169 \si{\micro \volt / \celsius}
+  \label{eq:offset_2}
+\end{equation}
+
+Compared to full scale, drift is 0.35 \si{PPM/\celsius},
+meaning for a 5.5 digit instrument, the drift is 
+les than $\pm1$ LSB for a temperature change of
+$\pm 14$ \si{\celsius}.
+
+\subsection{Gain drift}
+5.5 digit instruments have 5 PPM resolution.
+
+\pagebreak
 \section{Power supply}
 
 \subsection{Expected load}
