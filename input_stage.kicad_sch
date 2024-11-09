@@ -3353,18 +3353,6 @@
 		(uuid "0022b76f-bbb2-481e-9ffb-dff31b8e86f2")
 	)
 	(junction
-		(at 209.55 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0466dd98-5fe1-4b9a-8525-9edee547a947")
-	)
-	(junction
-		(at 185.42 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "04d77895-8347-461f-8723-9203e267a5a8")
-	)
-	(junction
 		(at 294.64 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3405,12 +3393,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "35b2b7ec-b23b-4a80-ad6f-22e7d1821232")
-	)
-	(junction
-		(at 167.64 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "44c88383-9013-474f-8f42-3f26702e4121")
 	)
 	(junction
 		(at 152.4 261.62)
@@ -3515,10 +3497,10 @@
 		(uuid "cc2d75fe-4529-4b41-90c4-3ac9d25593ab")
 	)
 	(junction
-		(at 185.42 113.03)
+		(at 212.09 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e05b9491-614f-41e1-9604-ce0e296bd0b8")
+		(uuid "cce95aa3-0971-4795-a913-a8ec1a403d10")
 	)
 	(junction
 		(at 27.94 254)
@@ -3549,12 +3531,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f86345aa-c377-496d-bbb2-e3cba2667495")
-	)
-	(junction
-		(at 209.55 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f98a2b07-448a-4ec8-8252-c3745ae72be1")
 	)
 	(wire
 		(pts
@@ -3618,16 +3594,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 91.44) (xy 167.64 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07c36ae5-8187-4b1d-b377-205a9fbf56c4")
-	)
-	(wire
-		(pts
 			(xy 140.97 120.65) (xy 161.29 120.65)
 		)
 		(stroke
@@ -3688,7 +3654,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 81.28) (xy 38.1 81.28)
+			(xy 17.78 81.28) (xy 21.59 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3825,16 +3791,6 @@
 			(type default)
 		)
 		(uuid "234f0172-0e1f-44a4-9871-6cfb5f6e3fab")
-	)
-	(wire
-		(pts
-			(xy 185.42 113.03) (xy 185.42 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25b19e6c-de02-4caa-929f-97b767069ad5")
 	)
 	(wire
 		(pts
@@ -3975,16 +3931,6 @@
 			(type default)
 		)
 		(uuid "39fad3ab-f1a4-42f1-97a6-2cd09e7e43d8")
-	)
-	(wire
-		(pts
-			(xy 193.04 113.03) (xy 185.42 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a21dbb3-b305-4468-aa3a-6db254e15d44")
 	)
 	(wire
 		(pts
@@ -4138,7 +4084,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 81.28) (xy 185.42 101.6)
+			(xy 186.69 81.28) (xy 186.69 95.25)
 		)
 		(stroke
 			(width 0)
@@ -4238,16 +4184,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 113.03) (xy 185.42 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60ad1268-ffe4-48c2-8850-d258077f234b")
-	)
-	(wire
-		(pts
 			(xy 140.97 115.57) (xy 140.97 120.65)
 		)
 		(stroke
@@ -4318,7 +4254,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 81.28) (xy 72.39 81.28)
+			(xy 29.21 81.28) (xy 30.48 81.28)
 		)
 		(stroke
 			(width 0)
@@ -4388,16 +4324,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 101.6) (xy 209.55 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d1a446c-dbc7-48c4-83a0-ea17187f2d8f")
-	)
-	(wire
-		(pts
 			(xy 177.8 81.28) (xy 177.8 76.2)
 		)
 		(stroke
@@ -4438,7 +4364,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 101.6) (xy 209.55 78.74)
+			(xy 212.09 78.74) (xy 212.09 95.25)
 		)
 		(stroke
 			(width 0)
@@ -4528,16 +4454,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 76.2) (xy 167.64 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "954a1afb-0fb9-49ce-a3c7-d73d7023bf6e")
-	)
-	(wire
-		(pts
 			(xy 243.84 127) (xy 243.84 128.27)
 		)
 		(stroke
@@ -4558,7 +4474,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 78.74) (xy 209.55 78.74)
+			(xy 223.52 78.74) (xy 212.09 78.74)
 		)
 		(stroke
 			(width 0)
@@ -4618,6 +4534,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 81.28) (xy 40.64 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c8b8289-2dc5-4367-bed1-ba0226fef36c")
+	)
+	(wire
+		(pts
 			(xy 93.98 93.98) (xy 87.63 93.98)
 		)
 		(stroke
@@ -4668,13 +4594,23 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 113.03) (xy 170.18 113.03)
+			(xy 161.29 113.03) (xy 177.8 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a3e853a7-43c5-47f5-b52b-d48cd1f3856e")
+	)
+	(wire
+		(pts
+			(xy 186.69 95.25) (xy 212.09 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a84cd5eb-abe7-45a1-b8f9-e079b958abbf")
 	)
 	(wire
 		(pts
@@ -4748,16 +4684,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 76.2) (xy 167.64 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5aedbc1-f5a7-490b-99bb-66b613b07d6f")
-	)
-	(wire
-		(pts
 			(xy 77.47 259.08) (xy 81.28 259.08)
 		)
 		(stroke
@@ -4798,7 +4724,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 81.28) (xy 187.96 81.28)
+			(xy 186.69 81.28) (xy 187.96 81.28)
 		)
 		(stroke
 			(width 0)
@@ -4828,6 +4754,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 81.28) (xy 72.39 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c330281e-e88b-44d4-9ad5-dc82e9276b4d")
+	)
+	(wire
+		(pts
 			(xy 119.38 97.79) (xy 119.38 100.33)
 		)
 		(stroke
@@ -4848,7 +4784,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 76.2) (xy 177.8 76.2)
+			(xy 158.75 76.2) (xy 177.8 76.2)
 		)
 		(stroke
 			(width 0)
@@ -4978,7 +4914,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 78.74) (xy 203.2 78.74)
+			(xy 203.2 78.74) (xy 212.09 78.74)
 		)
 		(stroke
 			(width 0)
@@ -5045,26 +4981,6 @@
 			(type default)
 		)
 		(uuid "e39d8f28-b5b9-480b-843a-c9192b8da291")
-	)
-	(wire
-		(pts
-			(xy 209.55 113.03) (xy 209.55 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e51ddecf-8a5c-49b7-ad7b-14036517d017")
-	)
-	(wire
-		(pts
-			(xy 193.04 101.6) (xy 185.42 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5c12327-01e7-4817-85d0-33fb0f89dbd4")
 	)
 	(wire
 		(pts
@@ -5158,7 +5074,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 91.44) (xy 177.8 88.9)
+			(xy 177.8 88.9) (xy 177.8 113.03)
 		)
 		(stroke
 			(width 0)
@@ -5205,16 +5121,6 @@
 			(type default)
 		)
 		(uuid "f3fe9a20-6d00-4039-b5df-a619c6f8c089")
-	)
-	(wire
-		(pts
-			(xy 200.66 113.03) (xy 209.55 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7d26e45-6312-4d34-9618-80429af0f002")
 	)
 	(wire
 		(pts
@@ -5388,6 +5294,27 @@
 			(justify right top)
 		)
 		(uuid "2b170aac-3a41-47c7-b853-6abab67b5894")
+	)
+	(text_box "TREBA OVIH JOŠ 8\n"
+		(exclude_from_sim no)
+		(at -33.02 71.12 0)
+		(size 35.56 27.94)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 62 129 255 1)
+		)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(color 255 4 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "4caa684c-8f80-4c2b-98dc-7bafe6b06b8a")
 	)
 	(text_box "Maps 12V to 1.5V\nOr +-12V to 3V"
 		(exclude_from_sim no)
@@ -5715,7 +5642,7 @@
 	)
 	(global_label "INPUT+"
 		(shape input)
-		(at 30.48 81.28 180)
+		(at 17.78 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5725,7 +5652,7 @@
 		)
 		(uuid "da8ae42a-5b6f-431d-b7a1-83c0852cbbf7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 20.419 81.28 0)
+			(at 7.719 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6051,6 +5978,74 @@
 			(project "voltmeter_module"
 				(path "/e0910ac1-763d-4be4-8e91-05875278b512/7de11dbd-0f69-4594-8570-7a56a5192518"
 					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 44.45 81.28 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "07d2a846-5041-4f89-9be5-0169149163f2")
+		(property "Reference" "R40"
+			(at 44.45 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 44.45 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 44.196 80.264 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 44.45 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "254d4f7e-19ce-4a9c-a4b6-247aa85b25d5")
+		)
+		(pin "1"
+			(uuid "daebef22-6e9f-4862-8fe7-714d2a555dd9")
+		)
+		(instances
+			(project "voltmeter_module"
+				(path "/e0910ac1-763d-4be4-8e91-05875278b512/7de11dbd-0f69-4594-8570-7a56a5192518"
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -6404,7 +6399,7 @@
 				)
 			)
 		)
-		(property "Value" "8k"
+		(property "Value" "7k"
 			(at 160.02 75.184 90)
 			(effects
 				(font
@@ -6887,7 +6882,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 41.91 81.28 270)
+		(at 25.4 81.28 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6896,15 +6891,15 @@
 		(dnp no)
 		(uuid "2c18463b-b787-4bdd-a21f-5996f4553636")
 		(property "Reference" "R6"
-			(at 41.91 87.63 90)
+			(at 25.4 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "100k"
-			(at 41.91 85.09 90)
+		(property "Value" "10k"
+			(at 25.4 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6912,7 +6907,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 41.656 80.264 90)
+			(at 25.146 80.264 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6921,7 +6916,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 41.91 81.28 0)
+			(at 25.4 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6930,7 +6925,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 41.91 81.28 0)
+			(at 25.4 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8895,72 +8890,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 167.64 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7eebd04e-c7f1-45dd-b013-ddfd5af466e7")
-		(property "Reference" "#PWR016"
-			(at 167.64 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 167.64 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 167.64 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 167.64 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "626ba984-19fc-44c1-bb73-2e418747c547")
-		)
-		(instances
-			(project "voltmeter_module"
-				(path "/e0910ac1-763d-4be4-8e91-05875278b512/7de11dbd-0f69-4594-8570-7a56a5192518"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 119.38 104.14 0)
 		(mirror x)
@@ -9294,25 +9223,25 @@
 			(uuid "ac1b7971-f4f7-4a9a-ab11-eed9fcedd1c0")
 		)
 		(pin "5"
-			(uuid "e89d326c-e110-427e-911b-2429ab0d7d76")
+			(uuid "e89d326c-e110-427e-911b-2429ab0d7d78")
 		)
 		(pin "8"
 			(uuid "5d62e65d-abb1-48b2-9a4b-9651da11f238")
 		)
 		(pin "6"
-			(uuid "1d474fef-725e-40ce-9ba3-a3594cab7c6d")
+			(uuid "1d474fef-725e-40ce-9ba3-a3594cab7c6f")
 		)
 		(pin "1"
-			(uuid "91a92b7b-b6c9-4a31-9197-951853d5bca9")
+			(uuid "91a92b7b-b6c9-4a31-9197-951853d5bcaa")
 		)
 		(pin "3"
-			(uuid "100e27f1-6f8d-4731-ac6e-2413ca701878")
+			(uuid "100e27f1-6f8d-4731-ac6e-2413ca701879")
 		)
 		(pin "7"
-			(uuid "5c58267d-8078-4046-85c1-1d8956df3806")
+			(uuid "5c58267d-8078-4046-85c1-1d8956df3808")
 		)
 		(pin "2"
-			(uuid "f5e01219-3f81-464a-900f-37377f649b7f")
+			(uuid "f5e01219-3f81-464a-900f-37377f649b80")
 		)
 		(instances
 			(project "voltmeter_module"
@@ -9570,278 +9499,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 167.64 85.09 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9b173891-7a91-46eb-b5ab-5b585e080113")
-		(property "Reference" "C1"
-			(at 163.83 83.8199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100n"
-			(at 163.83 86.3599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 168.6052 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 167.64 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 167.64 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "46569e85-2845-499c-a22a-e5cb25fa10ca")
-		)
-		(pin "2"
-			(uuid "8412060d-2449-4d3d-b76e-606e6941d90f")
-		)
-		(instances
-			(project "voltmeter_module"
-				(path "/e0910ac1-763d-4be4-8e91-05875278b512/7de11dbd-0f69-4594-8570-7a56a5192518"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 173.99 113.03 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9e90d588-d448-485c-a082-f3900ec8ca20")
-		(property "Reference" "R19"
-			(at 169.164 112.014 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "8k"
-			(at 179.07 112.014 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 173.736 112.014 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 173.99 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 173.99 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bc3286c7-89fb-4c08-81ee-f11b02a56513")
-		)
-		(pin "1"
-			(uuid "ea739df9-4baf-49d3-aa89-c5792e61d4ee")
-		)
-		(instances
-			(project "voltmeter_module"
-				(path "/e0910ac1-763d-4be4-8e91-05875278b512/7de11dbd-0f69-4594-8570-7a56a5192518"
-					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 177.8 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9f8752e5-206c-4dca-a5dd-b6510cb00589")
-		(property "Reference" "#PWR017"
-			(at 177.8 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 177.8 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 177.8 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 177.8 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "21c093d7-596c-4825-8725-16716abede73")
-		)
-		(instances
-			(project "voltmeter_module"
-				(path "/e0910ac1-763d-4be4-8e91-05875278b512/7de11dbd-0f69-4594-8570-7a56a5192518"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 196.85 113.03 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a026fb36-f6aa-4ecd-83d8-fac8c724baa7")
-		(property "Reference" "C2"
-			(at 196.85 105.41 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100n"
-			(at 196.85 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 200.66 112.0648 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 196.85 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 196.85 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d5f88ff8-81f3-4d7d-b44d-1203007f92a0")
-		)
-		(pin "2"
-			(uuid "b87285fa-7854-415b-b37f-2cbf2eb41fc7")
-		)
-		(instances
-			(project "voltmeter_module"
-				(path "/e0910ac1-763d-4be4-8e91-05875278b512/7de11dbd-0f69-4594-8570-7a56a5192518"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Reference_Voltage:REF5030AD")
 		(at 91.44 256.54 0)
 		(mirror y)
@@ -10056,16 +9713,16 @@
 			)
 		)
 		(pin "4"
-			(uuid "e764c401-dbab-415f-9c8c-e42aa1520724")
+			(uuid "e764c401-dbab-415f-9c8c-e42aa1520725")
 		)
 		(pin "5"
-			(uuid "e89d326c-e110-427e-911b-2429ab0d7d77")
+			(uuid "e89d326c-e110-427e-911b-2429ab0d7d79")
 		)
 		(pin "8"
-			(uuid "2958fad1-fd28-482c-ad81-8220a3d39a37")
+			(uuid "2958fad1-fd28-482c-ad81-8220a3d39a38")
 		)
 		(pin "6"
-			(uuid "1d474fef-725e-40ce-9ba3-a3594cab7c6e")
+			(uuid "1d474fef-725e-40ce-9ba3-a3594cab7c70")
 		)
 		(pin "1"
 			(uuid "538f2ecc-beec-442e-92e1-4be6581f95d0")
@@ -10074,7 +9731,7 @@
 			(uuid "31ddd070-30d9-4874-903e-aab079fdf07a")
 		)
 		(pin "7"
-			(uuid "5c58267d-8078-4046-85c1-1d8956df3807")
+			(uuid "5c58267d-8078-4046-85c1-1d8956df3809")
 		)
 		(pin "2"
 			(uuid "b87302ed-d82f-49e1-a27d-b27b37d22e5c")
@@ -10600,16 +10257,16 @@
 			)
 		)
 		(pin "8"
-			(uuid "a94ce72a-13f5-45a2-b3e0-59259529fe50")
+			(uuid "a94ce72a-13f5-45a2-b3e0-59259529fe51")
 		)
 		(pin "4"
-			(uuid "44409226-d9ac-49ca-ad9a-738ef45fe3fb")
+			(uuid "44409226-d9ac-49ca-ad9a-738ef45fe3fc")
 		)
 		(pin "2"
-			(uuid "69076004-2c8d-49f4-8173-de1577c555f9")
+			(uuid "69076004-2c8d-49f4-8173-de1577c555fa")
 		)
 		(pin "3"
-			(uuid "10c3aec8-5eab-4be1-bbd7-648774bc02c2")
+			(uuid "10c3aec8-5eab-4be1-bbd7-648774bc02c3")
 		)
 		(pin "6"
 			(uuid "ca020f49-2507-4a0e-9085-9695a0c011b6")
@@ -10618,7 +10275,7 @@
 			(uuid "94a77232-ad48-445b-8ae5-a3cde9aca717")
 		)
 		(pin "1"
-			(uuid "b6afed4d-5278-46af-b2b1-de811f020ae0")
+			(uuid "b6afed4d-5278-46af-b2b1-de811f020ae1")
 		)
 		(pin "5"
 			(uuid "5bdd624d-90c1-47f1-ba12-e3f5246a47b8")
@@ -11395,73 +11052,6 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 196.85 101.6 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e11fac97-6301-4476-9abc-272d238f0c9e")
-		(property "Reference" "R21"
-			(at 196.85 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 196.85 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 196.596 102.616 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 196.85 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 196.85 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a63763e8-5165-47c3-a161-ebb9f95e2411")
-		)
-		(pin "1"
-			(uuid "be6e7493-cebd-4b59-995f-12f9cf18be6c")
-		)
-		(instances
-			(project "voltmeter_module"
-				(path "/e0910ac1-763d-4be4-8e91-05875278b512/7de11dbd-0f69-4594-8570-7a56a5192518"
-					(reference "R21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
 		(at 177.8 85.09 0)
 		(mirror x)
 		(unit 1)
@@ -11525,6 +11115,74 @@
 			(project "voltmeter_module"
 				(path "/e0910ac1-763d-4be4-8e91-05875278b512/7de11dbd-0f69-4594-8570-7a56a5192518"
 					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 34.29 81.28 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e566b1b1-1ec5-48d5-a455-274f4ac9d39e")
+		(property "Reference" "R39"
+			(at 34.29 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 34.29 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 34.036 80.264 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 34.29 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 34.29 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c1f6fd83-ee33-4105-8de3-f8acf880ad2c")
+		)
+		(pin "1"
+			(uuid "d4e1076c-cc7e-4387-9682-438df6a75572")
+		)
+		(instances
+			(project "voltmeter_module"
+				(path "/e0910ac1-763d-4be4-8e91-05875278b512/7de11dbd-0f69-4594-8570-7a56a5192518"
+					(reference "R39")
 					(unit 1)
 				)
 			)
