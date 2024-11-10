@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1730634322.02346 "voltmeter_module.tex" "voltmeter_module.pdf" "voltmeter_module" 1730634322.49085 0
+["pdflatex"] 1731262947.34266 "voltmeter_module.tex" "voltmeter_module.pdf" "voltmeter_module" 1731262947.81454 0
   "/nix/store/063rng0gi2l8gn62d0wd3php3m6ilhcd-texlive-2023-env-texmfdist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/nix/store/063rng0gi2l8gn62d0wd3php3m6ilhcd-texlive-2023-env-texmfdist/fonts/enc/dvips/cmsrb/cmsrbts1.enc" 1 2739 09dbe67a27d855e4d39579aa6d913f4e ""
   "/nix/store/063rng0gi2l8gn62d0wd3php3m6ilhcd-texlive-2023-env-texmfdist/fonts/map/fontname/texfonts.map" 1 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -124,10 +124,10 @@
   "figs/Input_amp.png" 1730632533.50571 65731 3d4dca5664b5c9636325fad816244c76 ""
   "figs/pomona.jpg" 1730150228.23286 58817 ba64106ccd232be37d5b921fad681a42 ""
   "figs/screw_sizez.jpg" 1730150228.23286 67491 c8dbc75e5e922a8ebc27155cbb81f2d2 ""
-  "voltmeter_module.aux" 1730634322.44385 5320 bc5d336a7e6826423ed213cdf35ac707 "pdflatex"
-  "voltmeter_module.out" 1730634322.44485 5123 6a735399eda766c440e6e5ea13f23f12 "pdflatex"
-  "voltmeter_module.tex" 1730634320.44789 11097 22f4804c36a2f76a2b1f4fe6995945de ""
-  "voltmeter_module.toc" 1730634322.44485 3075 351d13e7806cc3f0c3adfa7cc8a069b8 "pdflatex"
+  "voltmeter_module.aux" 1731262947.76825 6002 84613484f108d790f196aaa931ef4a6c "pdflatex"
+  "voltmeter_module.out" 1731262947.76825 6274 60fbf8a342befee239c95294683f235b "pdflatex"
+  "voltmeter_module.tex" 1731262945.48627 11659 e22b324990c3c2392d786f1df4d0748b ""
+  "voltmeter_module.toc" 1731262947.76825 3612 4905b44d91585de7a0dde241b118e481 "pdflatex"
   (generated)
   "voltmeter_module.aux"
   "voltmeter_module.log"

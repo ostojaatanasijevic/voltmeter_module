@@ -52,18 +52,28 @@ a 10 MOhm divider, input currents noise contribution is:
 
 \section{Input amplifier}
 
-\subsection{NCS21802}
+\subsection{NCS21802 only}
+
+\subsubsection{Input current noise at high voltage input}
 NCS21802 has 450 \si{\femto \ampere \sqrt{\hertz}}, meaning at input divider
-resistance (around 12 kOhm), voltage noise generated is \si{5.4 nV/\sqrt{Hz}}.
+resistance (around 12 kOhm), voltage noise generated is 5.4\si{nV/\sqrt{Hz}}.
+At 1 kHz BW, peak to peak noise contribution of input current is 1.02 uVpp.
+At 1 Hz, input noise is 32 nVpp.
 
-The input voltage noise is \si{54 nV/\sqrt{Hz}}, so total noise at the input
-is: 
+\subsubsection{Input current noise at low voltage input}
 
-\begin{equation}
-  e_n = \sqrt{ 42^2 + 5.4^2} nV/Hz = 54.3 nV/Hz
-  \label{eq:NCS218xx input noise}
-\end{equation}
+\subsubsection{Input voltage noise}
+NCS has 400 nVpp below 10 Hz, while the 1 kHz noise spec of 42 nV/Hz would 
+suggest 800 nVpp at that BW. If we use the 1 kHz figure, we can estimate 
+1 kHz BW noise is 8 uVpp. At 1 Hz, input voltage noise is 252 nVpp or less.
 
+
+\subsubsection{Total noise at high voltage input}
+Total noise is dominated by voltage noise, which is say 9 uVpp at 1 kHz, 
+260 nVpp at 1 Hz. Scaling to input range, 3V signal still has to go into the 
+high voltage divider and is reduced to 4.5 mV. 
+
+\subsubsection{IDK}
 If we want 500 updates a second, setting the bandwidth to 1000 Hz admits 
 1716 nVrms, or 10.3 uVpp of noise.
 Reducing the BW to 4 Hz, 0.6 uVpp.
@@ -76,15 +86,15 @@ voltmeter resolution to 500 counts.
 Averaging may improve this noise, but this is garantied to 
 
 
-\subsection{TL072}
+\subsection{TL072 and NCS}
 TL072 has 80 \si{\femto \ampere \sqrt{\hertz}}, meaning at input divider
-resistance (around 100 kOhm), voltage noise generated is \si{10 nV/\sqrt{Hz}}.
-
-The input voltage noise is \si{54 nV/\sqrt{Hz}}, so total noise at the input
-is: 
+resistance (around 100 kOhm), voltage noise generated is \si{8 nV/\sqrt{Hz}}. 
+Noise is larger at 0.1 Hz, with peak to peak noise being 300 times larger then
+noise density at 1 kHz. Max pp noise is then 2.4 uVpp. 
+The input voltage noise pp is 9.2 uVpp.
 
 \begin{equation}
-  e_n = \sqrt{ 42^2 + 5.4^2} nV/Hz = 54.3 nV/Hz
+  V_noise = \sqrt{ 9.2^2 + 2.4^2} uVpp = 9.51 uVpp
   \label{eq:NCS218xx input noise}
 \end{equation}
 
