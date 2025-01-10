@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1736285573.72944 "voltmeter_module.tex" "voltmeter_module.pdf" "voltmeter_module" 1736285574.15753 0
+["pdflatex"] 1736531054.06565 "voltmeter_module.tex" "voltmeter_module.pdf" "voltmeter_module" 1736531054.5219 0
   "/nix/store/063rng0gi2l8gn62d0wd3php3m6ilhcd-texlive-2023-env-texmfdist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/nix/store/063rng0gi2l8gn62d0wd3php3m6ilhcd-texlive-2023-env-texmfdist/fonts/enc/dvips/cmsrb/cmsrbts1.enc" 1 2739 09dbe67a27d855e4d39579aa6d913f4e ""
   "/nix/store/063rng0gi2l8gn62d0wd3php3m6ilhcd-texlive-2023-env-texmfdist/fonts/map/fontname/texfonts.map" 1 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -122,10 +122,11 @@
   "/nix/store/b4v9s6zz6lm6g26d2mx2b8vhb027nc42-texlive-2023-env/share/texmf-var/web2c/pdftex/pdflatex.fmt" 1 8221905 c403fc18a0e87246e00cf17a48ac15a1 ""
   "/nix/store/b4v9s6zz6lm6g26d2mx2b8vhb027nc42-texlive-2023-env/share/texmf-var/web2c/texmf.cnf" 1 42643 36936b4b96dbf15dd29f7b30591b5eeb ""
   "figs/Input_amp.png" 1730632533.50571 65731 3d4dca5664b5c9636325fad816244c76 ""
-  "voltmeter_module.aux" 1736285574.11339 2354 6ded0f6b9406b2750c7d3e906ffaf542 "pdflatex"
-  "voltmeter_module.out" 1736285574.11439 2353 c23d70f52487467475697383723b0781 "pdflatex"
-  "voltmeter_module.tex" 1736285573.5124 5048 b98fb91530715f0f5aec3a6aec613374 ""
-  "voltmeter_module.toc" 1736285574.11439 1311 95387cf6ca2e2e50a08205cf0155c13b "pdflatex"
+  "figs/bootstrap.png" 1736531025.13796 7144 893d0fa9829056c37f457dbb4d4933ac ""
+  "voltmeter_module.aux" 1736531054.47757 2515 3b36103d6550915353228ca42bda18f5 "pdflatex"
+  "voltmeter_module.out" 1736531054.47757 2699 568e4c30ec67cbaaea248712084c057f "pdflatex"
+  "voltmeter_module.tex" 1736530985.3835 5220 543334dcf38e49d554f3a29cbbc1ed0d ""
+  "voltmeter_module.toc" 1736531054.47757 1431 06968070c205085228d2e6071695bc00 "pdflatex"
   (generated)
   "voltmeter_module.aux"
   "voltmeter_module.log"

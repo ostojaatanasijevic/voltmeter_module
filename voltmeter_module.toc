@@ -1,7 +1,7 @@
 \babel@toc {serbian}{}\relax 
 \contentsline {section}{\numberline {1}Resolution}{3}{section.1}%
 \contentsline {subsection}{\numberline {1.1}Input current noise limit}{3}{subsection.1.1}%
-\contentsline {section}{\numberline {2}Input amplifier}{3}{section.2}%
+\contentsline {section}{\numberline {2}Input amplifier ideas}{3}{section.2}%
 \contentsline {subsection}{\numberline {2.1}NCS21802 only}{3}{subsection.2.1}%
 \contentsline {subsubsection}{\numberline {2.1.1}Input current noise at high voltage input}{3}{subsubsection.2.1.1}%
 \contentsline {subsubsection}{\numberline {2.1.2}Input current noise at low voltage input}{3}{subsubsection.2.1.2}%
@@ -9,8 +9,9 @@
 \contentsline {subsubsection}{\numberline {2.1.4}Total noise at high voltage input}{3}{subsubsection.2.1.4}%
 \contentsline {subsubsection}{\numberline {2.1.5}IDK}{3}{subsubsection.2.1.5}%
 \contentsline {subsection}{\numberline {2.2}TL072 and NCS}{3}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Bootstrapped low voltage chopper amplifier input}{5}{subsection.2.3}%
 \contentsline {section}{\numberline {3}Calculating errors}{5}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Offset drift}{5}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Gain drift}{5}{subsection.3.2}%
-\contentsline {section}{\numberline {4}Power supply}{6}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Mains transformer}{6}{subsection.4.1}%
+\contentsline {subsection}{\numberline {3.2}Gain drift}{6}{subsection.3.2}%
+\contentsline {section}{\numberline {4}Power supply}{7}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Mains transformer}{7}{subsection.4.1}%

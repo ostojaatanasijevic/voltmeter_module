@@ -219,6 +219,11 @@ INPUT /nix/store/063rng0gi2l8gn62d0wd3php3m6ilhcd-texlive-2023-env-texmfdist/fon
 INPUT /nix/store/063rng0gi2l8gn62d0wd3php3m6ilhcd-texlive-2023-env-texmfdist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
 INPUT /nix/store/063rng0gi2l8gn62d0wd3php3m6ilhcd-texlive-2023-env-texmfdist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 OUTPUT voltmeter_module.toc
+INPUT ./figs/bootstrap.png
+INPUT ./figs/bootstrap.png
+INPUT ./figs/bootstrap.png
+INPUT ./figs/bootstrap.png
+INPUT ./figs/bootstrap.png
 INPUT /nix/store/063rng0gi2l8gn62d0wd3php3m6ilhcd-texlive-2023-env-texmfdist/fonts/tfm/jknappen/ec/tcrm1095.tfm
 INPUT /nix/store/063rng0gi2l8gn62d0wd3php3m6ilhcd-texlive-2023-env-texmfdist/fonts/tfm/jknappen/ec/tcrm0800.tfm
 INPUT /nix/store/063rng0gi2l8gn62d0wd3php3m6ilhcd-texlive-2023-env-texmfdist/fonts/tfm/jknappen/ec/tcrm0600.tfm

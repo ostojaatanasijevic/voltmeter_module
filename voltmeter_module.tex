@@ -50,7 +50,7 @@ temperature range.
 Since for input ranges greater then Vcc the input voltage is feed through
 a 10 MOhm divider, input currents noise contribution is:
 
-\section{Input amplifier}
+\section{Input amplifier ideas}
 
 \subsection{NCS21802 only}
 
@@ -110,6 +110,15 @@ yealding 3.75 mV across the input divider. In this case, noise reduces the
 voltmeter resolution to 500 counts.
 
 \pagebreak
+
+\subsection{Bootstrapped low voltage chopper amplifier input}
+
+\begin{figure}[H]
+  \centering 
+  \includegraphics[scale=0.55]{"./figs/bootstrap.png"}
+\end{figure}
+
+
 \section{Calculating errors}
 
 \subsection{Offset drift}
